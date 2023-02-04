@@ -17,6 +17,7 @@ new_york_city.csv
 washington.csv
 Include the files used
 
-### Credits
+### Knowledge website
+Introduction to version control - Help installing Git on macOS
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
 
