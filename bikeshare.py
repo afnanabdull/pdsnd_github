@@ -17,6 +17,7 @@ def get_filters():
     """
 
     print('Hello! Let\'s explore some US bikeshare data!')
+    print('This will only include three big cities: NYC, Chicago, and Washington')
     # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
 
     while True:
@@ -196,7 +197,7 @@ def user_stats(df):
     print('-'*40)
 
 def display_data(df):
-    # To ask the user whether he wants to see 5 rows of data. 
+    # To ask the user whether he wants to see 5 rows of data. This will keep showing the next 5 rows as long as the user says yes 
     view_data = input('\nWould you like to view 5 rows of individual trip data? Enter yes or no\n')
     start_loc = 0
     end_loc = 5
