@@ -5,7 +5,7 @@ import numpy as np
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
-
+#This script is used to to explore data related to bike share systems for three major cities in the United States—Chicago, New York City, and Washington.
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
@@ -16,6 +16,7 @@ def get_filters():
     """
 
     print('Hello! Let\'s explore some US bikeshare data!')
+    print('This will only include three big cities: NYC, Chicago, and Washington')
     # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
 
     while True:
