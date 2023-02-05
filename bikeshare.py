@@ -72,11 +72,13 @@ def load_data(city, month, day):
     df['month'] = df['Start Time'].dt.month
     df['day_of_week'] = df['Start Time'].dt.day
 
+    #Filter by month 
     if month != 'all':
            months = ['january', 'february', 'march', 'april', 'may', 'june']
            month = months.index(month) + 1
            df = df[df['month'] == month]
 
+    #Filter by day 
     if day != 'all':
            days = ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday']
            day = days.index(day) + 1
@@ -92,16 +94,16 @@ def time_stats(df):
 
     # TO DO: display the most common month
 
-    print('The most popular Month of the year is :', df['month'].mode()[0])
+    print('\nThe most popular Month of the year is :', df['month'].mode()[0])
 
     # TO DO: display the most common day of week
 
-    print('The most popular Day of the week is :', df['day_of_week'].mode()[0])
+    print('\nThe most popular Day of the week is :', df['day_of_week'].mode()[0])
 
     # TO DO: display the most common start hour
     
     df['hour'] = df['Start Time'].dt.hour
-    print('The Most popular Hour of the day is :', df['hour'].mode()[0])
+    print('\nThe Most popular Hour of the day is :', df['hour'].mode()[0])
 
 
     print("\nThis took %s seconds." % (time.time() - start_time))
