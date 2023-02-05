@@ -17,7 +17,8 @@ new_york_city.csv
 washington.csv
 Include the files used
 
-### Knowledge website
+### Knowledge website, github
 Introduction to version control - Help installing Git on macOS
+Udacity Git Commit Message Style Guide
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
 
