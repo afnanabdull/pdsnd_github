@@ -1,6 +1,6 @@
 >**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
 
-### Feb 04 2023
+### Feb 05 2023
 Include the date you created this project and README file.
 
 ### Verion Control Project for US Bikeshare Data
@@ -17,7 +17,8 @@ new_york_city.csv
 washington.csv
 Include the files used
 
-### Knowledge website
+### Knowledge website, github
 Introduction to version control - Help installing Git on macOS
+Udacity Git Commit Message Style Guide
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
 

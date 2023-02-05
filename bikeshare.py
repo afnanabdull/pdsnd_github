@@ -17,7 +17,7 @@ def get_filters():
     """
 
     print('Hello! Let\'s explore some US bikeshare data!')
-    print('This will only include three big cities: NYC, Chicago, and Washington')
+    print('This will include only three major US cities: new_york_city, Chicago, and washington')
     # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
 
     while True:
